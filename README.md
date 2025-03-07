@@ -38,6 +38,16 @@ Update the `<host1>` with your server's IP address (you can have multiple server
 $ vim hosts.ini
 ```
 
+Update your package list:
+```bash
+$ sudo apt update
+```
+
+Install Ansible:
+```bash
+$ sudo apt install ansible
+```
+
 Install the requirements:
 ```bash
 $ ansible-galaxy install -r requirements.yml
